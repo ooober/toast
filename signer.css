@@ -83,9 +83,14 @@ label {
   width: 80%;
   padding: 10px 0 10px 0;
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .sign {
-  
+  border: none;
+  padding: 20px 10px 20px 10px
+  background-color: #423C4C;
+  color: white;
+  border-radius: 100px;
 }
 
