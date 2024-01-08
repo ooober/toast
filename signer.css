@@ -65,3 +65,8 @@ label {
   display: block;
   margin-bottom: 20px;
 }
+
+input {
+  display: none;
+}
+
