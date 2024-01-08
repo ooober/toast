@@ -77,3 +77,15 @@ label {
   border-radius: 200px;
 }
 
+.certpass {
+  border: none;
+  align-text: center;
+  width: 80%;
+  padding: 10px 0 10px 0;
+  border-radius: 20px;
+}
+
+.sign {
+  
+}
+
