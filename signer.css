@@ -79,10 +79,7 @@ label {
 
 .certpass {
   border: none;
-  align-text: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   width: 80%;
   padding: 10px 0 10px 0;
   border-radius: 20px;
