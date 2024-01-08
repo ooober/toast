@@ -20,6 +20,10 @@ body {
   border-radius: 50px;
   color: #fff;
 }
+
+a {
+  text-decoration: none;
+}
         
 .navigation button:hover {
   background: linear-gradient(to right, #007bff, #8a00ff);
