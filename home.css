@@ -11,6 +11,10 @@ body {
   justify-content: center;
    margin-top: 20px;
 }
+
+.silly {
+  width: 300px;
+}
         
 .navigation button {
   background: linear-gradient(to right, #8a00ff, #007bff);
