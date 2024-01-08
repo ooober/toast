@@ -13,10 +13,12 @@ body {
 }
         
 .navbutton {
-  padding: 5px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
   background-color: #634A66;
   font: Arial, sans-serif;
   font-size: 15px;
+  border-radius: 50px;
+  color: #fff;
 }
         
 .navigation button:hover {
