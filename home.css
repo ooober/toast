@@ -79,7 +79,7 @@ a {
   -webkit-text-fill-color: transparent; 
 }
 
-@media (max-width: 500) {
+@media (max-width: 500px) {
   .navbutton {
     font-size: 10px;
   }
