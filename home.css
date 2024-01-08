@@ -9,23 +9,14 @@ body {
 .navigation {
   display: flex;
   justify-content: center;
-   margin-top: 20px;
+  margin-top: 20px;
 }
         
-.navigation button {
-  background: linear-gradient(to right, #8a00ff, #007bff);
-  color: #fff;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px;
-  cursor: pointer;
-  transition-duration: 0.4s;
-  border-radius: 25px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.navbutton {
+  padding: 5px 20px 5px 20px;
+  background-color: #634A66;
+  font: Arial, sans-serif;
+  font-size: 15px;
 }
         
 .navigation button:hover {
