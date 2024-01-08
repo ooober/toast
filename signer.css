@@ -1,35 +1,59 @@
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-        body {
-            font-family: 'Roboto Mono', monospace;
-            background-color: #282a36;
-            color: #50fa7b;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-            position: relative;
-            transition: all 1s ease;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  color: #fff; 
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+}
+    
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+        
+.navbutton {
+  padding: 10px 20px 10px 20px;
+  background-color: #634A66;
+  font: Arial, sans-serif;
+  font-size: 15px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 0px 10px 0px 10px;
+}
 
-        body:before {
-            content: '';
-            position: absolute;
-            top: 0; 
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
-            animation: bg 20s linear infinite;
-            opacity: 0.2;
-        }
-
-        @keyframes bg {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+a {
+  text-decoration: none;
+}
+        
+.navigation button:hover {
+  background: linear-gradient(to right, #007bff, #8a00ff);
+}
+        
+.header {
+  background: #181818;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #9877A5;
+}
+.header h1 {
+  color: #000;
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header img {
+  width: 55px;
+  height: auto;
+  border-radius: 45%;
+  margin-left: 10px;
+}
 
         #uploadForm {
             background-color: #44475a;
