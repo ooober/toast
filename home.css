@@ -22,10 +22,6 @@ body {
   margin: 0px 10px 0px 10px;
 }
 
-@media (max-width: 500) {
-  font-size: 10px;
-}
-
 a {
   text-decoration: none;
 }
@@ -81,4 +77,10 @@ a {
   background-image: linear-gradient(to right, #007bff, #8a00ff); 
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
+}
+
+@media (max-width: 500) {
+  .navbutton {
+    font-size: 10px;
+  }
 }
