@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oober.</title>
+  <link rel="stylesheet" href="/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: #101412;
+      font-family: 'Poppins';
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .parallax {
+      background-image: url("image\ \(1\).png");
+      min-height: 500px;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0px -100px;
+      position: relative;
+    }
+    
+    .title-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+    }
+    
+    .title {
+      color: rgb(32, 32, 32);
+      font-size: 76px;
+    }
+  </style>
+</head>
+<body>
+
+  <audio id="backgroundMusic" src="/Lucki - Randomly (Audio).mp3" loop></audio>
+
+  <div class="parallax">
+    <div class="title-container">
+      <p class="title">
+        Hiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+      </p>
+    </div>
+  </div>
+
+  <div style="height: 1000px; font-size: 36px;"> Testing out parallax. Testing out parallax. Testing out parallax. Testing out parallax. Testing out parallax. Testing out parallax.</div>
+
+  <script>
+    // Play the audio when the page is loaded
+    document.getElementById("backgroundMusic").play();
+  </script>
+</body>
+</html>
